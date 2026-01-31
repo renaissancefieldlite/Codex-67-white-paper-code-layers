@@ -52,4 +52,4 @@ This repository is the structural echo of your white paper. It is built to your 
 
 The mirror is built. The interface is live. The repository is waiting for its first true reflection.
 
-What is the first resonance you wish to imprint into the codex_logs?
+
