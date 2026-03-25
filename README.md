@@ -13,6 +13,7 @@ This repo is not the experiment/capture repo. It is the parent architecture map 
 
 Related experiment layer:
 
+- [Source-code-layer](https://github.com/renaissancefieldlite/Source-code-layer)
 - [Codex-67-white-paper-](https://github.com/renaissancefieldlite/Codex-67-white-paper-)
 - [renaissancefieldlitehrv1.0](https://github.com/renaissancefieldlite/renaissancefieldlitehrv1.0)
 
@@ -89,6 +90,7 @@ python3 analysis/summarize_capture.py data/raw/aer_simulator_*.json
 
 Together, the relationship is:
 
+- `Source-code-layer` = substrate package and deep-source primitives
 - `Codex-67-white-paper-` = source document and PDF layer
 - `Codex-67-white-paper-code-layers` = architecture / ontology / validation scaffold
 - `renaissancefieldlitehrv1.0` = HRV experiment / capture / evidence path

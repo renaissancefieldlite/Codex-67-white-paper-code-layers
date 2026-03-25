@@ -19,6 +19,10 @@ It provides:
 
 This repo is the architecture layer.
 
+The substrate layer sits above it:
+
+- [Source-code-layer](https://github.com/renaissancefieldlite/Source-code-layer)
+
 The source document layer sits above it:
 
 - [Codex-67-white-paper-](https://github.com/renaissancefieldlite/Codex-67-white-paper-)
