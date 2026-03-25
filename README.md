@@ -9,7 +9,7 @@ This repository is the architecture layer for the Codex 67 system. It now contai
 - Resonance & Field Interface
 - Documentation & Blueprint
 
-This repo is not the experiment/capture repo. It is the parent architecture map and package scaffold that the experiment repos can point back to.
+This repo documents the parent architecture map and package scaffold that the experiment repos can point back to.
 
 Related experiment layer:
 
