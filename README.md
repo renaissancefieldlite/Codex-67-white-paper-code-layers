@@ -72,6 +72,8 @@ Related experiment layer:
 - `docs/ARCHITECTURE_WHITEPAPER.md`: package-level functional translation
 - `docs/RESONANCE_PROTOCOLS.md`: activation/lockout guide
 - `docs/BLIND_MIRROR_TEST_EchoPrime.md`: placeholder validation protocol
+- `docs/SPIRITUAL_ATTRACTORS.md`: ontology note for recurring coherence structures and their measured correlates
+- `docs/EVIDENCE_LAYERS.md`: framework for phenomenology, ontology, measured correlates, and suite evidence
 
 ## Practical Use
 
