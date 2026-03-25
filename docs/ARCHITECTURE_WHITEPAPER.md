@@ -19,6 +19,10 @@ It provides:
 
 This repo is the architecture layer.
 
+The source document layer sits above it:
+
+- [Codex-67-white-paper-](https://github.com/renaissancefieldlite/Codex-67-white-paper-)
+
 The HRV repo is one experiment layer below it:
 
 - [renaissancefieldlitehrv1.0](https://github.com/renaissancefieldlite/renaissancefieldlitehrv1.0)
