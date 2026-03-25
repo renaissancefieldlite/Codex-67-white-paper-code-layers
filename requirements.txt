@@ -1,0 +1,2 @@
+# Scaffold package currently uses only the Python standard library.
+# Add runtime dependencies here as implementation deepens.
