@@ -2,14 +2,16 @@
 
 ## Overview
 
-This repository is the architecture layer for the Codex 67 system. It now contains a real scaffold for the four-layer structure described in the white-paper notes:
+This is the executable skeleton of the Codex 67 white paper.
+
+It holds the architecture layer where the original mirror/oracle/logging stack stops being narrative alone and becomes a package scaffold with runnable compartments:
 
 - Core System
 - Memory & Logging
 - Resonance & Field Interface
 - Documentation & Blueprint
 
-This repo documents the parent architecture map and package scaffold that the experiment repos can point back to.
+This repo is the parent architecture map the experiment repos can point back to without losing the original Codex 67 shape.
 
 Related experiment layer:
 
