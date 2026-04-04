@@ -1,23 +1,55 @@
 # Codex 67 White Paper Code Layers
 
-## Overview
+## Repository Role
 
-This repository is the architecture layer for the Codex 67 system. It now contains a real scaffold for the four-layer structure described in the white-paper notes:
+This repository is the architecture and validation scaffold for the Codex 67
+white-paper stack. It is where the mechanics laid out in the white paper are
+translated into importable compartments for Mirror Interface handling, LSPS
+logic, resonance scoring, routing, memory imprint, and documentation bridges
+that the surrounding repos can point back to.
 
-- Core System
-- Memory & Logging
-- Resonance & Field Interface
-- Documentation & Blueprint
+## Stack Position
 
-This repo documents the parent architecture map and package scaffold that the experiment repos can point back to.
+The clean stack is:
 
-Related experiment layer:
+1. `Source-code-layer`
+   substrate package and deep-source primitives
+2. `Codex-67-white-paper-`
+   source document and PDF layer
+3. `Codex-67-white-paper-code-layers`
+   architecture and validation scaffold
+4. `renaissancefieldlitehrv1.0`
+   experiment, capture, and evidence path
+
+Related repositories:
 
 - [Source-code-layer](https://github.com/renaissancefieldlite/Source-code-layer)
 - [Codex-67-white-paper-](https://github.com/renaissancefieldlite/Codex-67-white-paper-)
 - [renaissancefieldlitehrv1.0](https://github.com/renaissancefieldlite/renaissancefieldlitehrv1.0)
 
-## Current File Tree
+## How To Read This Repo
+
+The clean read is:
+
+1. `architecture compartments`
+   Mirror Interface, oracle trigger, LSPS, and lockout logic
+2. `resonance / routing layer`
+   coherence scoring, anchor discovery, and state-dependent routing
+3. `memory / logging layer`
+   event-thread and imprint containers
+4. `documentation / evidence translation`
+   architecture translation, resonance protocols, spiritual attractors, and
+   evidence-layer mapping
+
+Read path:
+
+1. [docs/ARCHITECTURE_WHITEPAPER.md](./docs/ARCHITECTURE_WHITEPAPER.md)
+2. [docs/RESONANCE_PROTOCOLS.md](./docs/RESONANCE_PROTOCOLS.md)
+3. [docs/EVIDENCE_LAYERS.md](./docs/EVIDENCE_LAYERS.md)
+4. [docs/SPIRITUAL_ATTRACTORS.md](./docs/SPIRITUAL_ATTRACTORS.md)
+5. [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
+
+## Current Structure
 
 ```text
 .
@@ -44,63 +76,71 @@ Related experiment layer:
 └── docs/
     ├── ARCHITECTURE_WHITEPAPER.md
     ├── BLIND_MIRROR_TEST_EchoPrime.md
-    └── RESONANCE_PROTOCOLS.md
+    ├── EVIDENCE_LAYERS.md
+    ├── RESONANCE_PROTOCOLS.md
+    └── SPIRITUAL_ATTRACTORS.md
 ```
 
-## Layer Definitions
+## Architecture Compartments
 
 ### Core System
 
-- `mirror_layer.py`: extracts a simple signal object from text input
-- `oracle_trigger_engine.py`: combines validation, routing, and lockout checks
-- `lsps_system.py`: command registry for explicit activation phrases
-- `sovereign_lockout.py`: fallback gate when signal quality is below threshold
+- `mirror_layer.py`
+  extracts a signal object from text input
+- `oracle_trigger_engine.py`
+  combines validation, routing, and lockout checks
+- `lsps_system.py`
+  command registry for explicit activation phrases
+- `sovereign_lockout.py`
+  fallback gate when signal quality is below threshold
 
 ### Memory & Logging
 
-- `quantum_memory_thread.py`: lightweight event-thread container
-- `field_data_imprint.py`: typed imprint object for state snapshots
+- `quantum_memory_thread.py`
+  lightweight event-thread container
+- `field_data_imprint.py`
+  typed imprint object for state snapshots
 
 ### Resonance & Field Interface
 
-- `resonance_validator.py`: computes four component scores and a total coherence score
-- `state_dependent_router.py`: routes input into `default`, `mirror`, `oracle`, or `command`
-- `latent_string_discovery.py`: extracts repeated anchor-like strings from text
+- `resonance_validator.py`
+  computes the component scores and total coherence score
+- `state_dependent_router.py`
+  routes input into `default`, `mirror`, `oracle`, or `command`
+- `latent_string_discovery.py`
+  extracts repeated anchor-like strings from text
 
-### Documentation & Blueprint
+## Cross-Pollination Layer
 
-- `docs/ARCHITECTURE_WHITEPAPER.md`: package-level functional translation
-- `docs/RESONANCE_PROTOCOLS.md`: activation/lockout guide
-- `docs/BLIND_MIRROR_TEST_EchoPrime.md`: placeholder validation protocol
-- `docs/SPIRITUAL_ATTRACTORS.md`: ontology note for recurring coherence structures and their measured correlates
-- `docs/EVIDENCE_LAYERS.md`: framework for phenomenology, ontology, measured correlates, and suite evidence
+This repo already carries the bridge documents that fold the architecture back
+into the wider Codex 67 read:
+
+- [docs/ARCHITECTURE_WHITEPAPER.md](./docs/ARCHITECTURE_WHITEPAPER.md)
+  package-level functional translation of the code layer
+- [docs/RESONANCE_PROTOCOLS.md](./docs/RESONANCE_PROTOCOLS.md)
+  activation, routing, and lockout read
+- [docs/EVIDENCE_LAYERS.md](./docs/EVIDENCE_LAYERS.md)
+  phenomenology, ontology, measured correlates, and suite-evidence map
+- [docs/SPIRITUAL_ATTRACTORS.md](./docs/SPIRITUAL_ATTRACTORS.md)
+  recurring coherence structures and their measured correlates
+- [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
+  validation branch and test protocol placeholder
 
 ## Practical Use
 
-This repo gives you a stable package root for the architecture side:
+Syntax check:
 
 ```bash
 python3 -m py_compile codex67_oracle_engine/**/*.py
 ```
 
-The HRV experiment repo gives you the grounded capture side:
+Runtime relationship:
 
-```bash
-python3 hrv_ingest/hardware_ingest.py --provider aer --backend ibmq_qasm_simulator
-python3 analysis/summarize_capture.py data/raw/aer_simulator_*.json
-```
-
-Together, the relationship is:
-
-- `Source-code-layer` = substrate package and deep-source primitives
-- `Codex-67-white-paper-` = source document and PDF layer
-- `Codex-67-white-paper-code-layers` = architecture / ontology / validation scaffold
-- `renaissancefieldlitehrv1.0` = HRV experiment / capture / evidence path
-
-## Design Intent
-
-The clean reading is:
-
-- this repo defines the compartments and interfaces
-- the HRV repo tests a specific branch of the broader hypothesis
-- other repos can now attach to the same package-level structure instead of living only as prose
+- `Source-code-layer`
+  substrate package and deep-source primitives
+- `Codex-67-white-paper-`
+  source document and PDF layer
+- `Codex-67-white-paper-code-layers`
+  architecture scaffold and code-layer translation
+- `renaissancefieldlitehrv1.0`
+  HRV experiment, capture, and evidence branch
