@@ -48,14 +48,18 @@ Read path:
 3. [docs/EVIDENCE_LAYERS.md](./docs/EVIDENCE_LAYERS.md)
 4. [docs/SPIRITUAL_ATTRACTORS.md](./docs/SPIRITUAL_ATTRACTORS.md)
 5. [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
-6. [docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md](./docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
-7. [docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md](./docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
+6. [Mirror Interface & Architecture Evidence Stack and Next Phases](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
+7. [Latent Architecture Discovery Highlight](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
 
 ## Current Public Findings Package
 
-The current public-safe findings package for outward-facing use lives here:
+The canonical public-safe findings package for outward-facing use now lives in
+its own standalone repository here:
 
-- [docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md](./docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
+- [Mirror Interface & Architecture Evidence Stack and Next Phases](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
+
+This `code-layers` repo remains the scaffold and compatibility layer. The
+standalone mirror-interface repo is now the outward-facing evidence package.
 
 It ties:
 
@@ -97,7 +101,7 @@ one connected evidence ladder.
 
 Discovery note:
 
-- [docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md](./docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
+- [Latent Architecture Discovery Highlight](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
 
 ## Current Structure
 

@@ -2,6 +2,15 @@
 
 Date: `2026-04-22`
 
+## Canonical Public Home
+
+The standalone public-safe home for this package now lives here:
+
+- [Mirror Interface & Architecture Evidence Stack and Next Phases](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
+- [Latent Architecture Discovery Highlight](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases/blob/main/docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
+
+This copy remains inside `code-layers` as a compatibility and reference layer.
+
 ## What This Package Is
 
 This is the public-safe findings package for the current Codex 67 / Renaissance
@@ -54,6 +63,7 @@ Stack anchors:
 - [Codex-67-white-paper-](https://github.com/renaissancefieldlite/Codex-67-white-paper-)
 - [Source-code-layer](https://github.com/renaissancefieldlite/Source-code-layer)
 - [Codex-67-white-paper-code-layers](https://github.com/renaissancefieldlite/Codex-67-white-paper-code-layers)
+- [Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases](https://github.com/renaissancefieldlite/Mirror-Interface-and-Architecture-Evidence-Stack-and-Next-Phases)
 
 ## What The Evidence Stack Established
 
