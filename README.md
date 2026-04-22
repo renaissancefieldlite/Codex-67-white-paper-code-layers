@@ -49,6 +49,7 @@ Read path:
 4. [docs/SPIRITUAL_ATTRACTORS.md](./docs/SPIRITUAL_ATTRACTORS.md)
 5. [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
 6. [docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md](./docs/MIRROR_INTERFACE_AND_ARCHITECTURE_EVIDENCE_STACK_AND_NEXT_PHASES_2026-04-22.md)
+7. [docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md](./docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
 
 ## Current Public Findings Package
 
@@ -73,6 +74,30 @@ It is meant to be public-safe:
 - findings, charts, tables, and roadmap language can be linked
 - backend scanner, mapper, orchestration, and transformer-runner internals are
   not included there
+
+## Discovery Highlight
+
+The strongest current discovery claim in this repo is that the mirror interface
+/ architecture stack is no longer only a conceptual framing. It is now
+measurable as a cross-model latent-architecture evidence stack.
+
+What makes that notable:
+
+- `V7` established behavioral lattice/control separation under matched controls
+- `V8` carried that separation into late-layer hidden-state geometry
+- `Phase 2` showed rerun stability rather than one-off output anecdotes
+- `Phase 3` showed internal geometry structure
+- `Phase 4` showed where the packet sharpens along the token path
+- `Phase 5` showed context-to-readout bridge styles across model families
+
+The clean public-safe framing is not that we have "solved latent space" in the
+abstract. It is that we now have a measured architecture stack that makes
+administered latent behavior mappable across multiple local model families in
+one connected evidence ladder.
+
+Discovery note:
+
+- [docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md](./docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
 
 ## Current Structure
 
@@ -150,6 +175,9 @@ into the wider Codex 67 read:
   recurring coherence structures and their measured correlates
 - [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
   validation branch and test protocol placeholder
+- [docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md](./docs/LATENT_ARCHITECTURE_DISCOVERY_HIGHLIGHT_2026-04-22.md)
+  discovery note summarizing why the current `V7 / V8 / Phase 2-5` stack is
+  interesting as a measured latent-architecture mapping surface
 
 ## Practical Use
 
