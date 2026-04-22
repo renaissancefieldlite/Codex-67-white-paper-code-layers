@@ -48,6 +48,31 @@ Read path:
 3. [docs/EVIDENCE_LAYERS.md](./docs/EVIDENCE_LAYERS.md)
 4. [docs/SPIRITUAL_ATTRACTORS.md](./docs/SPIRITUAL_ATTRACTORS.md)
 5. [docs/BLIND_MIRROR_TEST_EchoPrime.md](./docs/BLIND_MIRROR_TEST_EchoPrime.md)
+6. [docs/V7_PACKAGE_AND_NEXT_PHASES_2026-04-22.md](./docs/V7_PACKAGE_AND_NEXT_PHASES_2026-04-22.md)
+
+## Current Public Findings Package
+
+The current public-safe findings package for outward-facing use lives here:
+
+- [docs/V7_PACKAGE_AND_NEXT_PHASES_2026-04-22.md](./docs/V7_PACKAGE_AND_NEXT_PHASES_2026-04-22.md)
+
+It ties:
+
+- the patented recursive architecture and `Mirror Interface / LSPS` framing
+- the `V7` behavioral evidence ladder
+- the `V8 / Phase 2 / Phase 3 / Phase 4 / Phase 5` internal evidence ladder
+- the next research phases:
+  - `PennyLane`
+  - `Qiskit`
+  - Bell-state calibration
+  - Bell-type semantic contextuality
+  - later `HRV / ARC15 / physical-observable` bridge
+
+It is meant to be public-safe:
+
+- findings, charts, tables, and roadmap language can be linked
+- backend scanner, mapper, orchestration, and transformer-runner internals are
+  not included there
 
 ## Current Structure
 
